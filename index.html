@@ -8,13 +8,82 @@
     <title>Calculator</title>
   </head>
   <body class="bg-main-color">
-      <div class="h-cal_h w-cal_w bg-number_button-color mx-56 my-24 absolute rounded-2xl">
-        <div class="bg-number_button-color w-cal_w h-40 rounded-t-2xl">
+      <div class="h-cal_h w-cal_w bg-number_button-color mx-auto my-24 rounded-2xl">
+        <div class="bg-cal_color w-cal_w h-40 rounded-t-2xl">
         </div>
-        <div class="h-button_h bg-number_button-color rounded-b-2xl border-t-2 border-slate-200 ">
-          <button>
-            <span></span>
-          </button>
+        <div class="h-button_h bg-cal_color rounded-b-2xl border-t-2 border-slate-200 ">
+          <div class=" mt-4 flex justify-evenly text-number_button-color">
+            <button class="bg-white w-16 h-16 rounded-full">
+              <span>
+                <img class="w-10 mx-2" src="icons/bakcspace.png" alt="delete">
+              </span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1.5 right-1">(</span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1.5 left-1">)</span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1.5">/</span>
+            </button>
+          </div>
+          <div class=" mt-4 flex justify-evenly text-main-color">
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">7</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">8</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">9</span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl text-number_button-color">
+              <span class="relative bottom-1.5">x</span>
+            </button>
+          </div>
+          <div class=" mt-4 flex justify-evenly text-main-color">
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">4</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">5</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">6</span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl text-number_button-color">
+              <span class="relative bottom-1.5">-</span>
+            </button>
+          </div>
+          <div class=" mt-4 flex justify-evenly text-main-color">
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">1</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">2</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-1">3</span>
+            </button>
+            <button class="bg-white w-16 h-16 rounded-full text-5xl text-number_button-color">
+              <span class="relative bottom-1.5">+</span>
+            </button>
+          </div>
+          <div class=" mt-4 flex justify-evenly text-main-color">
+            <button class="bg-white w-16 h-16 rounded-full text-5xl text-number_button-color">
+              <span class="relative bottom-1">%</span>
+            </button>
+            <button class="bg-number_button-color w-16 h-16 rounded-full text-5xl ">
+              <span class="relative bottom-1">0</span>
+            </button>
+            <button class="bg-white text-number_button-color w-16 h-16 rounded-full text-5xl">
+              <span class="relative bottom-4">.</span>
+            </button>
+            <button class="bg-main-color w-16 h-16 rounded-full text-5xl text-number_button-color">
+              <span class="relative bottom-1.5">=</span>
+            </button>
+          </div>
         </div>
       </div>
   </body>
